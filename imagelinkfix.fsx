@@ -63,17 +63,26 @@ let downloadFile (url:string) (fileName:string) =
         printfn "Failed to download: %s" url
         ()
 
+let updateFile (file, (oldLink:string), _, (newLink:string)) =
+    let text = File.ReadAllText(file)
+    let transformed = text.Replace(oldLink, newLink)
+//    let transformed = seq { for line in File.ReadLines(inFile) -> Regex.Replace(line, "\t",",") }
+    File.WriteAllText(file, transformed) 
+
 let result = 
     getFiles "_posts"
     |> Seq.map (readFile >> findImageLinks)
     |> Seq.collect id
     |> Seq.toList
-
-result |> (printfn "====> %A")
-
-result
     |> List.map (fun (f, l) -> (f,l, (l |> split '/' |> List.last |> split '?' |> List.head)))
-    |> List.map (fun (f, l, n) -> downloadFile l n; (f,l,n))
+    |> List.map 
+        (fun (f, l, n) ->
+            f, l, n, (sprintf "{{ site.url }}/assets/images/migrated/%s" n))
+
+result //|> (printfn "====> %A")
+    |> List.iter updateFile
+
+//    |> List.map (fun (f, l, n) -> downloadFile l n; (f,l,n))
 
 let sample = """
 Illustration of the flow from code to deployment:
