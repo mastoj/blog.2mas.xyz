@@ -64,4 +64,4 @@ A small example of what it looks like against one json-file I have:
 
 ![Json parsing example][1]
 
-  [1]: https://ykaqzw.bay.livefilestore.com/y1pA2PfyvbBJb1RByqI4tyndvpi3P-wV8gcE_cYBahljq8H7jQfzmvB7QBo5h3HKLAStoH0dB2Whp_qkmT6UDirnkPQmq9yOnli/JsonParseExample.png?psid=1 "Json parsing example"
+  [1]: {{ site.url }}/assets/images/migrated/JsonParseExample.png "Json parsing example"

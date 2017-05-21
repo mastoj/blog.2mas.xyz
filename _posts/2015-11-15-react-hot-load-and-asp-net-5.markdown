@@ -21,7 +21,7 @@ I've put together a small sample with react hot load and ASP.NET 5. You can find
 
 Below is a demo showing the result. I use atom for changing less and jsx files since the support for jsx+ES6 in Visual Studio isn't the best yet.
 
-![Demo of react hot load](/content/images/2015/11/Demo.gif)
+![Demo of react hot load]({{ site.url }}/assets/images/migrated/Demo.gif)
 
 ## How it sort of works (my version)
 
@@ -200,7 +200,7 @@ As you can see I'm pointing to `localhost:3000` instead of directly to disk, thi
 
 If you have cloned the [repository](https://github.com/mastoj/ReactHotLoadAspNet) and want to try it out you can now either run start from the `Task Runner Explorer` if you have the `NPM Scripts Task Runner` installed, or you can run `npm run start` from the command line in the root of the web project. 
 
-![Task Runner Explorer](/content/images/2015/11/TaskRunner.PNG)
+![Task Runner Explorer]({{ site.url }}/assets/images/migrated/TaskRunner.PNG)
 
 This will start the node server for you. When the node server is up and running you can start the ASP.NET application. Now you can start to interact with the application in the browser and then try to change the `jsx` or `less` files, save and see the changes appear in the browser with no refresh of the page.
 

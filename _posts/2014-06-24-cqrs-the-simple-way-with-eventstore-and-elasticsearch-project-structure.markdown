@@ -33,7 +33,7 @@ Hope you'll enjoy the read.
 This introduction post will walk you through the project I would like to see in a project and a short comment about the intention with the project.
 
 The projects that will be present are the one in the following screen shot:
-![Project structure](/content/images/2014/Jun/Project-structure-1.PNG)
+![Project structure]({{ site.url }}/assets/images/migrated/Project-structure-1.PNG)
 The rest of this post will give you a brief introduction to each of these projects and what I think should put into them. Note that there isn't such a thing as a generic solution to every problem so for your specific problem it might be good to have a different structure.
 
 ##Contracts

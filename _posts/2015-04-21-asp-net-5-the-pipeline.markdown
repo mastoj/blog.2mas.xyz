@@ -31,7 +31,7 @@ ASP.NET 5 has taken a lot of inspiration from other web framework out there like
 
 I'm not sure if pipeline is the "official" way to describe it but that's a mental model that I can relate to. 
 
-{<1>}![The pipeline](/content/images/2015/04/Pipeline.png)
+{<1>}![The pipeline]({{ site.url }}/assets/images/migrated/Pipeline.png)
 
 The way it works is that the browser makes a request to the server, the server forwards the request to the host listen to that port. The hosting environment could be a IIS on Windows or self host environemnt on Linux or Windows. The hosting environment start to execute the application pipeline starting with the first middleware. A piece of middleware can do two things as I see it:
 

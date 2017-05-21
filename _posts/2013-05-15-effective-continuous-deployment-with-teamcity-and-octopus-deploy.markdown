@@ -386,6 +386,6 @@ This a setup, or variants of it, in scenarios where I have to handle more than j
 
 I hope someone find this useful, please comment if something is wrong or could be done better in another way. 
 
-  [1]: https://public.blu.livefilestore.com/y2pBq3DbzywLNaGYrCsAaqTE17orjnSdJswnl2BQdy5QDayuLn_Wb5BsrpAIA0fnMFObB_1A9uDpbO7y4zfamCmI9e2GuvPD2okoJi93sfdGgg/OctoTeam01.PNG?psid=1
-  [2]: https://public.blu.livefilestore.com/y2p1TwfqnKIWqATT7cvFvAXDwLx7thEIBh2nJs44r3PmGtgt25-Wk0Jb0Tcob8Yb9pB9HjdIK3dtum0BpmYwNUB5PnOXitIYfdjrS9SIiIjwPo/OctoTeam02.PNG?psid=1
-  [3]: https://public.blu.livefilestore.com/y2pTXYbmVwxIofOD1-LA1ZRaADNbkffUICg8Uz3EYcV2Z7Q2ilo1fULCrs-JQs83a3AslVHmXKPI2PCMjFMdr2q7skDf0WYwhJpORtxPDPMKFc/OctoTeam03.PNG?psid=1
+  [1]: {{ site.url }}/assets/images/migrated/OctoTeam01.PNG
+  [2]: {{ site.url }}/assets/images/migrated/OctoTeam02.PNG
+  [3]: {{ site.url }}/assets/images/migrated/OctoTeam03.PNG

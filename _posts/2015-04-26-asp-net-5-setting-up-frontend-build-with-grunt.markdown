@@ -170,7 +170,7 @@ You can read about the options here: http://bower.io/docs/creating-packages/. Th
 
 If everything works as expected your solution explorer should look like this:
 
-![Bower in Visual Studio](/content/images/2015/04/Bower.PNG)
+![Bower in Visual Studio]({{ site.url }}/assets/images/migrated/Bower.PNG)
 
 There you see `bootstrap` is installed in the project with version `3.3.2`, and you can also see the dependencies for bootstrap if you click the small "arrow" left to `bootstrap`. 
 
@@ -199,7 +199,7 @@ The difference here compared to "bower.json" is that we use `devDependencies` an
 
 The solution should now look like:
 
-![Solution with NPM packages](/content/images/2015/04/NPM-1.PNG)
+![Solution with NPM packages]({{ site.url }}/assets/images/migrated/NPM-1.PNG)
 
 If it says "not installed" after the NPM packages you can just right click the NPM folder and select "Restore packages".
 
@@ -229,11 +229,11 @@ The `grunt.initConfig` is where we defined our front end build step. To be able 
 
 To configure when and how this build is run we have a new View in Visual Studio. If you right click the "gruntfile.js" file you have an option called "Task Runner Explorer". If you open up the "Task Runner Explorer" you get a window that looks like:
 
-![Task Runner Explorer](/content/images/2015/04/TaskRunnerExplorer.PNG)
+![Task Runner Explorer]({{ site.url }}/assets/images/migrated/TaskRunnerExplorer.PNG)
 
 There you can see all tasks defined in the "gruntfile.js" which you can run by right click the file and choose run. You can also bind the task to be run before or after a build for example. I like to have run the bower task after build so that's how I bind it usually. If you set up a binding you can see it under the binding tab. If you run the `default` task the solution view should be updated with content under the web root and it should look something like: 
 
-![Web root](/content/images/2015/04/FrontendInstalled.PNG)
+![Web root]({{ site.url }}/assets/images/migrated/FrontendInstalled.PNG)
 
 There you can see that all the bower packages, bootstrap and jquery which bootstrap depends on, are grouped by component as defined.
 

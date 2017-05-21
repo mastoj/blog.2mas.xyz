@@ -33,14 +33,14 @@ If you have a pure function it's very easy to reason about it since you don't ha
 ## What does a "standard" application look likes?
 Below I've attached a really simplifed picture of what most of the systems build look like today. 
 
-![Standard application](/content/images/2014/11/StandardApplication-1.png)
+![Standard application]({{ site.url }}/assets/images/migrated/StandardApplication-1.png)
 
 The problem with this is that the application is both dependent on the input and the state, but the state is not given as input to the application. Another issue with this is that two models are mixed as one, both the model you do action against and the model which you query. Of course I've over simplified things since I put basically all the "layers" in a block called "application", but is that a bad thing? Adding all the layers will most likely screw this model up even more.
 
 ## Alternative solution with CQRS and event sourcing
 You could see CQRS and event sourcing as an application where you have a write side and a read side of your application, but I think an alternative presentation might even make it more clear what is going on.
 
-![Pure application](/content/images/2014/11/PureApplication.png)
+![Pure application]({{ site.url }}/assets/images/migrated/PureApplication.png)
 
 What has happened here is that I have diveded the application into two parts; application and projection. As I wrote here, http://blog.tomasjansson.com/cqrs-the-simple-way-with-eventstore-and-elasticsearch-time-for-reflection/, CQRS is just divided and conquer on an architectural level, and that is exactly what is going on here. I've turned the application into two pure functions, one which I still call "application" and one which I call "projections." The most important one here is the "application" since it is what creates change, the "projection" is just one or more interpretations of those changes. Input to the application could be a command and events if that is needed to execute the command, the important part is that they are also important to the application. I haven't drawn that here, since I consider it to be input as well. Before you call the application you read all or the relevant events from the event store and provide them as input so you keep the application as a pure function.
 

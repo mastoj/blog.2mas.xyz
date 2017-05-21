@@ -38,7 +38,7 @@ The thing I wanted to try was this:
 
 Illustration of the flow from code to deployment:
 
-![The build deploy process](/content/images/2015/10/CodeToDeploy.JPG)
+![The build deploy process]({{ site.url }}/assets/images/migrated/CodeToDeploy.JPG)
 
 I think the end result is really good since it is the first time I used FAKEand AppVeyor. If you want to see the sample app and also the builds scripts they are in this repo at github: https://github.com/mastoj/FAKESimpleDemo
 
@@ -68,7 +68,7 @@ This specifies a environment variable `version` and that AppVeyor should not run
 
 I alos added some environment settings in the UI like this:
 
-![AppVeyor environment settings](/content/images/2015/10/AppVeyorEnv.PNG)
+![AppVeyor environment settings]({{ site.url }}/assets/images/migrated/AppVeyorEnv.PNG)
 
 The reason I added them there and not in source control is because that is not I want to have on GitHub. The same would apply if I needed some other "secret" settings during build, then I would add that a a environment setting in the UI. I do the same thing if I use TeamCity.
 
@@ -80,7 +80,7 @@ To deploy to an Azure Web App you need to create an account under Azure that is 
 
 When that is done you just add your project and creates a deployment step of type `Deploy an Azure Web App` and you are good to go. The step configuration should like something like: 
 
-![Octopus deploy configuration](/content/images/2015/10/OctopusDeployStep.PNG)
+![Octopus deploy configuration]({{ site.url }}/assets/images/migrated/OctopusDeployStep.PNG)
 
 ### FAKE
 

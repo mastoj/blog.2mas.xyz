@@ -17,7 +17,7 @@ The problem with web programming and FSharp is two as I see it right now. One is
 # FSharp and OWIN
 To get started you start of as you should with any web project, create an empty C# web project.
 
-![New project](/content/images/2014/Jul/NewProject.PNG)
+![New project]({{ site.url }}/assets/images/migrated/NewProject.PNG)
 
 I'm going for a windows hosting so also install the nuget package `Microsoft.Owin.Host.SystemWeb`. The next thing we are going to do is add a second project, this time a FSharp library. Update the `Library.fs` file so it looks something like this:
 

@@ -126,15 +126,15 @@ There are three things you need to do to get the application:
 
 That was all for now and hope the description is correct.
 
-  [1]: https://vpm6ug.blu.livefilestore.com/y1pVRlI1m7jv1E0xMc1tH8QWUXNAquFCa8jQB1f3061QzmGPOoLtqJtfQUSK3VdTIIdyFhEjJG1TTZkjiSDDFqCIED_7uqEBMR7/ACS_flow.png?psid=1
-  [2]: https://qbtmcq.blu.livefilestore.com/y1pEN61EJrZ-ljnAdi9ThVij98kFuNZ2mJgYc5zJppJPtQmQFWf9byp_aZgYHHN3heJHHhx2lHODpVNciyRcIr0H-sUbRLvxGI4/ACS_Azure1.png?psid=1 "Create namespace"
-  [3]: https://qbtmcq.blu.livefilestore.com/y1p2LEuZwCar7Vu3XOaMipciEMx0-cCap6ha4EneKtHgI1ENjRVtCGrI2yABg0ar-pxPOxgCFJ-9c1Y4OoGevIc8p-lWW4Rjg8_/ACS_Azure2.png?psid=1 "Go to navigate"
-  [4]: https://qbtmcq.blu.livefilestore.com/y1p3VfAUpOvTuflmORgwLs3z8j3iWHsn_hAokLt76OkDvzxFcACoy6-nnALqDKwzGjJZHe3rmuZyFH_OBDkv5zYlKfz4tKv91eJ/ACS_Azure3.png?psid=1 "Choose identity providers"
-  [5]: https://qbtmcq.blu.livefilestore.com/y1pnNN6uqnWDjY1bmPZGi-KB0fXLKJsT0GkK8f0Q2O8qnNpTrfkiNEdrnKM4n8QJ2X70tqWHB9L8DEsOpIBuhqLBW_Odb03_Rbe/ACS_Azure4.png?psid=1 "Relying party"
-  [6]: https://qbtmcq.blu.livefilestore.com/y1pog5hQp31PaFGYQ7TetjLQelLR65BoWStuq3_JhG0uBZ7O9HHrkTyVFMb3XcJRBGvzdVYYsyiAbx5D_7zWJJxWFWvDla170hj/ACS_Azure5.png?psid=1 "Rule group configuration"
-  [7]: https://qbtmcq.blu.livefilestore.com/y1pAROgKMCyjpGHSoQqROIZ0Lh6vUF3ABJirpvEgeWaCG93X8qdrEkbNYnGG5_rRsfFzNfzsHS8v2JlNE-c9eSLLTssCYYKu6Si/ACS_Azure6.png?psid=1
-  [8]: https://qbtmcq.blu.livefilestore.com/y1pAbToQkhuTS5Rn-uEKAx-cdZkAaJRPQPZ5Jqn_KIqCOL-LBa76uY3qamo6T0u2aI66h_YXT4Xrw1LeoaTRcGYYHrgOKAFswbb/ACS_Azure7.png?psid=1 "Management service symmetric key"
-  [9]: https://qbtmcq.blu.livefilestore.com/y1phuCt4lLPSWVGw8W_C6vWa889UmJzQZS-89e9Wi3t25yN_RHJtiKz000CD-80J_kWdWUXqjVRDCbIfp7TfC6cRYMY93TyGpN0/ACS_Azure8.png?psid=1 "Edit Management service"
-  [10]: https://qbtmcq.blu.livefilestore.com/y1p8fMIToSsRCx9rzZKYG24MHyhwySNZQXceY-1VepSbs8tyvYIq1XxTbNFggBjHJr2sPWNPVzSMH45TK11WwXUV59AAcLjR9sj/ACS_VS1.png?psid=1 "Identity and Access option"
-  [11]: https://qbtmcq.blu.livefilestore.com/y1pm7SOOPUBoMQi-mnayetcgY1meCH_uKRD-7Sr0NRRdtb2yUutdWvVqOis_bt1-la5bhK4DFtjOAM6bsLpcKrozWnT41V2Glqu/ACS_VS2.png?psid=1 "Configure Access Control"
-  [12]: https://qbtmcq.blu.livefilestore.com/y1p84U3Fe8bE03Hkl0UddGeSOTLJiK8t9Uz3Ik_Weu5cDa6HTGxnxtN_wMychIct_UwcblUet8QdF7uKlhKjVABVVZg-2U1xM3D/ACS_VS3.png?psid=1 "Configure ACS namespace"
+  [1]: {{ site.url }}/assets/images/migrated/ACS_flow.png
+  [2]: {{ site.url }}/assets/images/migrated/ACS_Azure1.png "Create namespace"
+  [3]: {{ site.url }}/assets/images/migrated/ACS_Azure2.png "Go to navigate"
+  [4]: {{ site.url }}/assets/images/migrated/ACS_Azure3.png "Choose identity providers"
+  [5]: {{ site.url }}/assets/images/migrated/ACS_Azure4.png "Relying party"
+  [6]: {{ site.url }}/assets/images/migrated/ACS_Azure5.png "Rule group configuration"
+  [7]: {{ site.url }}/assets/images/migrated/ACS_Azure6.png
+  [8]: {{ site.url }}/assets/images/migrated/ACS_Azure7.png "Management service symmetric key"
+  [9]: {{ site.url }}/assets/images/migrated/ACS_Azure8.png "Edit Management service"
+  [10]: {{ site.url }}/assets/images/migrated/ACS_VS1.png "Identity and Access option"
+  [11]: {{ site.url }}/assets/images/migrated/ACS_VS2.png "Configure Access Control"
+  [12]: {{ site.url }}/assets/images/migrated/ACS_VS3.png "Configure ACS namespace"

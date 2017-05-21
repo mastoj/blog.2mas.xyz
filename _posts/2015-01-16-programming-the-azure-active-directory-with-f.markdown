@@ -15,16 +15,16 @@ I've put the code on github, https://github.com/mastoj/ADTutorial, so you can do
 
 ##Creating the Active Directory in Azure
 We will create a new directory that we can play with. So to create the directory choose "CUSTOM CREATE" that is available after following the onscreen menu in the picture below.
-![Create Active Directory](/content/images/2015/01/CreateAD.PNG)
+![Create Active Directory]({{ site.url }}/assets/images/migrated/CreateAD.PNG)
 
 Enter some information in the "Add directory" (sample data below).
-![Add directory](/content/images/2015/01/AddDirectory.PNG)
+![Add directory]({{ site.url }}/assets/images/migrated/AddDirectory.PNG)
 
 In the active directory list click the arrow for your new directory to get to the details of this directory.
-![Active directory list](/content/images/2015/01/ADList.PNG)
+![Active directory list]({{ site.url }}/assets/images/migrated/ADList.PNG)
 
 To connect to the Active Directory, which are going to do through a console application, we need to add an application to the Active Directory. So go to the "Application" tab and then click "ADD" at the bottom of the screen. In the dialogue choose "Add an application my organization is developing" and then "WEB APPLICATION AND/OR WEB API", as "REDIRECT URI" and just choose a unique for "APP ID URI" use "http://localhost".
-![Add application](/content/images/2015/01/AddApplication-1.PNG)
+![Add application]({{ site.url }}/assets/images/migrated/AddApplication-1.PNG)
 
 ##Collecting and configuring the data needed to connect
 For the things we are going to do later there are some data we need to collect to be able to connect to the active directory. The things we need are:
@@ -43,11 +43,11 @@ The last thing we need to do is configure the permissions of the application so 
 
 ### The client id
 The client id is found under the "CONFIGURE" tab.
-![Client id](/content/images/2015/01/ClientId.PNG)
+![Client id]({{ site.url }}/assets/images/migrated/ClientId.PNG)
 
 ### The client secret
 This wasn't as straightforward as the id, but with secret they often mean "key". So on the "CONFIGURE" tab we need to generate a 1 or 2 year key that we can use. The key will only be visible after you save and only that time.
-![Client secret](/content/images/2015/01/ClientSecret.PNG)
+![Client secret]({{ site.url }}/assets/images/migrated/ClientSecret.PNG)
 
 ### The tenant name and id
 The name is the easiest part, if you haven't got any custom domain names this is the domain name you used for the "Active Directory". So in this example it is "fsharptest.onmicrosoft.com" (no http before the name).
@@ -55,7 +55,7 @@ The name is the easiest part, if you haven't got any custom domain names this is
 The id is a little bit harder to find. There are probably many ways to find the id, one is to visit the url: https://login.windows.net/fsharptest.onmicrosoft.com/FederationMetadata/2007-06/FederationMetadata.xml, but change my domain with yours. The tenant id is the guid in the "entityId" url on the first node in the document. 
 
 Another way to find the tenant id is to expand the "ENABLE USERS TO SIGN ON" and there it is in the magic url:
-![Tenant id](/content/images/2015/01/TenantId.PNG)
+![Tenant id]({{ site.url }}/assets/images/migrated/TenantId.PNG)
 
 ##Time to code
 Since I do prefer F# when I can the coding part will be done in F#, but you can easily translate the code to C# if you want to. I'll write everything in one file in a console app. To get started the easiest way is to use to nuget packages:

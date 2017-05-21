@@ -73,7 +73,7 @@ I want get into any detail what this does, but the hard part is where to put it.
 
 With these two files added my solution look like this:
 
-![View component solution structure](/content/images/2015/05/ViewComponent.PNG)
+![View component solution structure]({{ site.url }}/assets/images/migrated/ViewComponent.PNG)
 
 ### Using the view component
 

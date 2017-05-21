@@ -50,4 +50,4 @@ The next part is to write the script that will get the module imported, init.ps1
 
 When the above script is run it will import the module ClassNamer.psm1. Now all we need to do is to put both the PowerShell files in a tools folder and in the same folder as where we have tools folder we run the command `nuget spec ClassNamer`. The command will generate a ClassNamer.nuspec file for us with the default metadata. When we run nuget pack on the ClassNamer.nuspec file it will create a package with that contains the tools folder, and when we install the package in Visual Studio the init.ps1 script will be run by NuGet and install our module. If done correctly you will be able to get something like the image below when you've installed the package and run the new `Get-ClassName` command:
 
-![ClassNamer screen shot](http://media.tomasjansson.com/2011/05/ClassNamer.png)
+![ClassNamer screen shot]({{ site.url }}/assets/images/migrated/ClassNamer.png)

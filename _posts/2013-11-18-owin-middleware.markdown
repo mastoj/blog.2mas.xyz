@@ -287,4 +287,4 @@ The way I choose to structure the code is to keep a mapping of the path's this m
 Writing middleware is something that I think we will be doing a lot when we have changed our mind of thinking. As I showed you with some simple examples it could be really simple to write a piece of middleware, but I think you also realize that it could be really hard depending on what you are trying to solve. One question I didn't answer here is why you would like to use middleware? Writing good middleware will allow you to reuse them over and over again, you could stream line how you do things in your organization for example. Maybe you have a special setup of static files or you want all your web applications to use exactly the same authorization mechanism. I really look forward to see what kind of middleware that will pop up in the ecosystem.
 
 
-  [1]: https://qbtmcq.dm2302.livefilestore.com/y2pCgbiQedecsgVAzavyDd0MHMy5oIqWUayyuWMX2u119bfjXdyuXqiom8p90qhUA9rsOsVUqT8rQOz5GT4ZCilMIgAUmhSkEWfcB_MAig2uNA/SimpleMiddlewarePipeline.png?psid=1
+  [1]: {{ site.url }}/assets/images/migrated/SimpleMiddlewarePipeline.png

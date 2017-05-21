@@ -52,7 +52,7 @@ The last thing we need to do is add a "command" to the `commands` node:
 
 After you added that you will get a new menu item under the debug button called web:
 
-![Self-hosting menu item](/content/images/2015/05/Self-hosting.PNG)
+![Self-hosting menu item]({{ site.url }}/assets/images/migrated/Self-hosting.PNG)
 
 Choosing that menu item and start the application will start the self-hosted version instead of IIS Express.
 

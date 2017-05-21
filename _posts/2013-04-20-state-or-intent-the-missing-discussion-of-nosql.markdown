@@ -74,4 +74,4 @@ My framework is very inspired by a similar implementation by [Mark Nijhof](http:
 [Martin Fowler](http://martinfowler.com/) has also written a great post about event sourcing at his [blog](http://martinfowler.com/eaaDev/EventSourcing.html).
 
 
-  [1]: https://public.bn1.livefilestore.com/y1pwK56vcHOuKJy8WVO1nS0PE7ksgfB5xbshOlmouXipAuAsFkCoaAtH0KDMZ_r6-xGDp9zDXhD8Q9GIHwGMibHbw/EventSourcing.png?psid=1
+  [1]: {{ site.url }}/assets/images/migrated/EventSourcing.png

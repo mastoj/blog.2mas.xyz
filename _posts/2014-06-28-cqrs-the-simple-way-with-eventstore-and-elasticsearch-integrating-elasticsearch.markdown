@@ -314,6 +314,6 @@ Now I finished what I started, but I think I'll do at least two more posts. One 
 ##Screen shots from result in elasticsearch
 If we have created a customer, a product and a basket we can query elasticsearch using [Sense](https://github.com/bleskes/sense), which is/was a plugin to chrome. I'm not sure if you need a license for it now since it moved into another product called Marvel. If we ask to search for everything you would got a result like this.
 
-![Sample result from sense](/content/images/2014/Jun/Sense_Result.PNG)
+![Sample result from sense]({{ site.url }}/assets/images/migrated/Sense_Result.PNG)
 
 Elasticsearch is now up and running, but I'll add one more integration in [Integrating neo4j](http://blog.tomasjansson.com/cqrs-the-simple-way-with-eventstore-and-elasticsearch-let-us-throw-neo4j-into-the-mix/).
